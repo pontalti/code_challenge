@@ -58,8 +58,8 @@
 	- **Attention 2:** On Windows PowerShell you have to include the file with you complete path as the example below.
 	- Go to the project root folder.
 	- Run the command below using an external input file.
-		- ``` java -jar .\target\code-challenge.jar <PATH_AND_FILENAME> ```
-		- ``` Ex.: java -jar .\target\code-challenge.jar C:\dev\input.txt ```
+		- ``` java -jar .\target\code_challenge.jar <PATH_AND_FILENAME> ```
+		- ``` Ex.: java -jar .\target\code_challenge.jar C:\dev\input.txt ```
 		
 10. To run the SpringBoot application on Ubuntu Linux.
 	- Go to the project root folder.
