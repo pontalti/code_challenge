@@ -11,7 +11,7 @@
    - Maven - 3.8.7
 
 2. If necessary install the JDK 21, download it on the link below
-	-``` 
+	- ``` 
 	https://jdk.java.net/21/ 
 	```
 	- Choose your distribution and install the JDK
