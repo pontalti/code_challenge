@@ -14,29 +14,34 @@
 	- ``` https://jdk.java.net/21/ ```
 	- Choose your distribution and install the JDK
 	- Create the Java Home
-		- Windows -> ``` 
-					JAVA_HOME = [YOUR_PATCH]\jdk-21 
-				  ```
+		- Windows 
+			``` 
+			- JAVA_HOME = [YOUR_PATCH]\jdk-21 
+			```
 		- Linux -> ``` 
-					JAVA_HOME = [YOUR_PATCH]/jdk-21 
-				 ```
+				JAVA_HOME = [YOUR_PATCH]/jdk-21 
+				```
 	- Put the JAVA_HOME on the System Patch
 		- For Windows -> ``` 
-						%JAVA_HOME%\bin 
-					```
+					 %JAVA_HOME%\bin 
+					 ```
 		- For Linux -> ``` 
-						export PATH=$JAVA_HOME/bin:$PATH 
-					```
+				 	export PATH=$JAVA_HOME/bin:$PATH 
+				    ```
 	- Test JDK on command line
 		- ``` 
 			java -version 
 		  ```		
 
 3. If necessary install Maven, download it on the link below
-	- ``` https://maven.apache.org/download.cgi ```
+	- ``` 
+	   https://maven.apache.org/download.cgi 
+	   ```
 	- Extract compressed file in your prefered tool folder.
 	- Create the M2_HOME
-		- Windows -> ``` M2_HOME = [YOUR_PATCH]\apache-maven-3.8.7 ```
+		- Windows -> ``` 
+				  M2_HOME = [YOUR_PATCH]\apache-maven-3.8.7 
+				  ```
 		- Linux -> ``` M2_HOME = [YOUR_PATCH]/apache-maven-3.8.7 ```
 	- Put the Maven on the System Patch
 		- For Windows -> ``` %M2_HOME%\bin ```
