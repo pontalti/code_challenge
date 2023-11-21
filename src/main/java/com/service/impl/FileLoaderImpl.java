@@ -57,7 +57,7 @@ public class FileLoaderImpl implements FileLoader {
 		}
 		try(var lines = Files.lines(Path.of(file.getPath()))){
 			var comparator = Comparator.comparing(InstrumentDTO::getName, Comparator.naturalOrder())
-					.thenComparing(InstrumentDTO::getDate);
+					.thenComparing(InstrumentDTO::getDate, Comparator.reverseOrder());
 			this.instrumentRecords = 
 					Collections.synchronizedList(
 						lines.map(l -> mapStrLineToInstrumentRecord(l))

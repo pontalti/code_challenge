@@ -28,7 +28,7 @@ public class Instrument implements InstrumentAverageStrategy {
 	
 	@Override
 	public Double process() {
-		var comparator = Comparator.comparing(InstrumentDTO::getDate, Comparator.naturalOrder());
+		var comparator = Comparator.comparing(InstrumentDTO::getDate, Comparator.reverseOrder());
 		var average = this.records.parallelStream()
 										.filter(i->i.getName().equals(this.instrument))
 										.sorted(comparator)
