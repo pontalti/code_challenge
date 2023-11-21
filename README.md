@@ -15,8 +15,8 @@
 	- Choose your distribution and install the JDK
 	- Create the Java Home
 		- Windows 
-			``` 
-			- JAVA_HOME = [YOUR_PATCH]\jdk-21 
+			- ``` 
+			 JAVA_HOME = [YOUR_PATCH]\jdk-21 
 			```
 		- Linux -> ``` 
 				JAVA_HOME = [YOUR_PATCH]/jdk-21 
