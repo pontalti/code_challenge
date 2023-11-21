@@ -44,15 +44,27 @@
 	   ```
 	- Extract compressed file in your prefered tool folder.
 	- Create the M2_HOME
-		- Windows -> ``` 
-				  M2_HOME = [YOUR_PATCH]\apache-maven-3.8.7 
-				  ```
-		- Linux -> ``` M2_HOME = [YOUR_PATCH]/apache-maven-3.8.7 ```
+		- Windows
+			- ``` 
+			   M2_HOME = [YOUR_PATCH]\apache-maven-3.8.7 
+			  ```
+		- Linux
+			- ```
+			   M2_HOME = [YOUR_PATCH]/apache-maven-3.8.7
+			  ```
 	- Put the Maven on the System Patch
-		- For Windows -> ``` %M2_HOME%\bin ```
-		- For Linux -> ``` export PATH=$M2_HOME/bin:$PATH ```
+		- For Windows
+			- ```
+			  %M2_HOME%\bin
+			  ```
+		- For Linux
+			- ```
+			   export PATH=$M2_HOME/bin:$PATH
+			  ```
 	- Test Maven on command line
-		- ``` mvn --version ```
+		- ```
+		   mvn --version
+		  ```
 
 4. If necessary install your favorite IDE with support to JDK 21.
 
