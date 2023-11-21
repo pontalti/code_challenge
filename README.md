@@ -11,28 +11,28 @@
    - Maven - 3.8.7
 
 2. If necessary install the JDK 21, download it on the link below
-	- ``` 
-	   https://jdk.java.net/21/ 
+	- ```
+	   https://jdk.java.net/21/
 	   ```
 	- Choose your distribution and install the JDK
 	- Create the Java Home
-		- Windows 
+		- Windows
 			- ``` 
-			   JAVA_HOME = [YOUR_PATCH]\jdk-21 
-			```
+			   JAVA_HOME = [YOUR_PATCH]\jdk-21
+			  ```
 		- Linux
 			- ``` 
-			   JAVA_HOME = [YOUR_PATCH]/jdk-21 
-			```
+			  JAVA_HOME = [YOUR_PATCH]/jdk-21
+			  ```
 	- Put the JAVA_HOME on the System Patch
-		- For Windows 
-			- ``` 
-			   %JAVA_HOME%\bin 
-			```
+		- For Windows
+			- ```
+			   %JAVA_HOME%\bin
+			  ```
 		- For Linux 
 			- ``` 
 			   export PATH=$JAVA_HOME/bin:$PATH 
-			```
+			  ```
 	- Test JDK on command line
 		- ``` 
 		   java -version 
