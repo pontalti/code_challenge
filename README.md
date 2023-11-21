@@ -92,9 +92,8 @@
 		- ```
 		   mvn spring-boot:run -Dspring-boot.run.arguments=<PATH_AND_FILENAME>
 		  ```
-		- ```
-		   Ex.: mvn spring-boot:run -Dspring-boot.run.arguments=C:\dev\input.txt
-		  ```
+		- ```Ex.: mvn spring-boot:run -Dspring-boot.run.arguments=C:\dev\input.txt ```
+		
 9. To run the SpringBoot application on Windows PowerShell.
 	- **Attention 1:** the Windows PowerShell does not run the command ``` mvn spring-boot:run ``` the same way as Windows CMD and Linux.
 	- **Attention 2:** On Windows PowerShell you have to include the file with you complete path as the example below.
@@ -103,9 +102,7 @@
 		- ```
 		   java -jar .\target\code_challenge.jar <PATH_AND_FILENAME>
 		  ```
-		- ``` 
-		   Ex.: java -jar .\target\code_challenge.jar C:\dev\input.txt
-		  ```
+		- ```Ex.: java -jar .\target\code_challenge.jar C:\dev\input.txt```
 		
 10. To run the SpringBoot application on Ubuntu Linux.
 	- Go to the project root folder.
@@ -117,6 +114,4 @@
 		- ```
 		   mvn spring-boot:run -Dspring-boot.run.arguments=<PATH_AND_FILENAME>
 		  ```
-		- ```
-		   Ex.: mvn spring-boot:run -Dspring-boot.run.arguments=/home/gustavo/sw/input.txt
-		  ```
+		- ```Ex.: mvn spring-boot:run -Dspring-boot.run.arguments=/home/gustavo/sw/input.txt ```
