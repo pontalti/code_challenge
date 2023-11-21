@@ -16,21 +16,24 @@
 	- Create the Java Home
 		- Windows 
 			- ``` 
-			 JAVA_HOME = [YOUR_PATCH]\jdk-21 
+			JAVA_HOME = [YOUR_PATCH]\jdk-21 
 			```
-		- Linux -> ``` 
-				JAVA_HOME = [YOUR_PATCH]/jdk-21 
-				```
+		- Linux
+			- ``` 
+			JAVA_HOME = [YOUR_PATCH]/jdk-21 
+			```
 	- Put the JAVA_HOME on the System Patch
-		- For Windows -> ``` 
-					 %JAVA_HOME%\bin 
-					 ```
-		- For Linux -> ``` 
-				 	export PATH=$JAVA_HOME/bin:$PATH 
-				    ```
+		- For Windows 
+			- ``` 
+			%JAVA_HOME%\bin 
+			```
+		- For Linux 
+			- ``` 
+			export PATH=$JAVA_HOME/bin:$PATH 
+			```
 	- Test JDK on command line
 		- ``` 
-			java -version 
+		java -version 
 		  ```		
 
 3. If necessary install Maven, download it on the link below
