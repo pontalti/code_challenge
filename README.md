@@ -8,7 +8,7 @@
    			- Java 21 support for Eclipse
    			- Project Lombok v1.18.30 
    - JDK 21
-   - Maven - 3.8.7
+   - Maven - 3.9.5
 
 2. If necessary install the JDK 21, download it on the link below
 	- ```
@@ -46,11 +46,11 @@
 	- Create the M2_HOME
 		- Windows
 			- ``` 
-			   M2_HOME = [YOUR_PATCH]\apache-maven-3.8.7 
+			   M2_HOME = [YOUR_PATCH]\apache-maven-3.9.5 
 			  ```
 		- Linux
 			- ```
-			   M2_HOME = [YOUR_PATCH]/apache-maven-3.8.7
+			   M2_HOME = [YOUR_PATCH]/apache-maven-3.9.5
 			  ```
 	- Put the Maven on the System Patch
 		- For Windows
